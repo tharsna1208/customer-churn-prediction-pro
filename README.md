@@ -1,71 +1,80 @@
-# Customer Churn Prediction System
+# 📊 Customer Churn Prediction System
 
-A Machine Learning web application that predicts whether a telecom customer is likely to churn based on customer demographics, account information, and subscribed services.
+A Machine Learning-powered web application that predicts whether a telecom customer is likely to churn based on customer information.
 
-This project combines Machine Learning with a modern Flask web application to help businesses identify customers at risk of leaving and take proactive retention measures.
+The project uses a trained ML model with **94.75% accuracy** and provides an interactive multi-step prediction interface built using Flask.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Multi-step interactive prediction form
-- Real-time field validation
-- Automatic value calculations
-- Customer churn prediction using Machine Learning
+- Multi-step customer information form
+- Predict customer churn instantly
 - Prediction confidence score
-- Personalized retention recommendations
+- High Churn / Low Churn visualization
+- Customer retention recommendations
 - Responsive modern UI
-- Flask backend integration
+- Flask web application
+- Machine Learning Pipeline
 
 ---
 
-## Machine Learning
+## 🛠 Tech Stack
 
-- Problem Type: Binary Classification
-- Algorithm: Random Forest Classifier
-- Model Accuracy: **94.75%**
-
----
-
-## Tech Stack
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-
-### Backend
-- Flask
 - Python
-
-### Machine Learning
+- Flask
 - Scikit-learn
 - Pandas
 - NumPy
+- HTML
+- CSS
+- JavaScript
 
 ---
 
-## Project Structure
+## 🤖 Machine Learning Model
 
-```
-customer-churn-prediction-pro/
-│
-├── app.py
-├── requirements.txt
-├── models/
-├── notebooks/
-├── static/
-│   ├── css/
-│   └── js/
-├── templates/
-│   └── index.html
-├── README.md
-└── LICENSE
-```
+- Algorithm: Random Forest Classifier
+- Accuracy: **94.75%**
+- Dataset: Telecom Customer Churn Dataset
+- Preprocessing Pipeline Included
+- Probability Prediction Supported
 
 ---
 
-## Installation
+# 📸 Screenshots
+
+## 🏠 Landing Page
+
+![Landing Page](assets/Landing_page.png)
+
+---
+
+## 👤 Personal Information
+
+![Personal Information](assets/Personal_information.png)
+
+---
+
+## 🌐 Service Details
+
+![Service Details](assets/Service_page.png)
+
+---
+
+## 🟢 Low Churn Prediction
+
+![Low Churn](assets/Low_churn_risk.png)
+
+---
+
+## 🔴 High Churn Prediction
+
+![High Churn](assets/High_churn_risk.png)
+
+---
+
+## ⚙ Installation
 
 Clone the repository
 
@@ -79,13 +88,13 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the Flask application
+Run the project
 
 ```bash
 python app.py
 ```
 
-Open your browser
+Open
 
 ```
 http://127.0.0.1:5000
@@ -93,22 +102,22 @@ http://127.0.0.1:5000
 
 ---
 
-## Future Improvements
+## 📈 Future Improvements
 
-- Railway Deployment
-- Docker Support
+- Deploy using Railway
 - User Authentication
 - Database Integration
-- Customer History Dashboard
-- API Support
+- Explainable AI (SHAP)
+- Customer Analytics Dashboard
+- CSV Bulk Prediction
 
 ---
 
-## Developer
+## 👨‍💻 Developer
 
-**Tharun K**
+**Tarun K**
 
-Artificial Intelligence & Machine Learning Engineer
+AI & Machine Learning Engineer
 
 GitHub:
 https://github.com/tharsna1208
