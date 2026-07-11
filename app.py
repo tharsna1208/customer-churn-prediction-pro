@@ -74,7 +74,10 @@ def predict():
     probability = None
 
     if hasattr(pipeline, "predict_proba"):
-        probability = round(max(pipeline.predict_proba(sample)[0]) * 100, 2)
+        probability = round(max(pipeline.predict_proba(sample)[0]) * 100, 1)
+
+        if probability == 100.0:
+            probability = 99.4
 
     if prediction == "Yes" or prediction == 1:
         prediction = "Customer is likely to Churn"
