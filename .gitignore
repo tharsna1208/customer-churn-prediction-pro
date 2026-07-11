@@ -17,8 +17,5 @@ __pycache__/
 # macOS files
 .DS_Store
 
-# ML Models
-models/*.pkl
-
 # Processed data (optional)
 data/processed/
